@@ -1,0 +1,28 @@
+
+* {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: #0B2027;
+    color: #F6F1D1;
+
+    scroll-behavior: initial;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
