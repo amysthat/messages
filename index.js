@@ -41,7 +41,7 @@ const loadEnglish = () => {
 
 let lines = [];
 
-if (turkish_specific_available || navigator.language.includes("tr")) {
+if (navigator.language.includes("tr")) {
     loadTurkish();
 }
 else {
